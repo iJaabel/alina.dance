@@ -1,20 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 import classes from "./Education.module.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
-import { MdSchool } from "react-icons/md";
 import { MdWork } from "react-icons/md";
+import { MdSchool } from "react-icons/md";
 import { FaSchool } from "react-icons/fa";
 
-class Education extends Component {
-  render() {
-    return (
+export default function Education() {
+  return (
       <div className={classes.box} id="education">
         <ScrollAnimation
-          offset="0"
+          offset={0}
           animateIn="fadeInLeft"
-          duration="2"
-          animateOnce="true"
+          duration={2}
+          animateOnce={true}
           initiallyVisible={true}
         >
           <span className={classes.head}>MY JOURNEY</span>
@@ -24,10 +23,10 @@ class Education extends Component {
                 <div className={classes.row_md_12}>
                   <div className={classes.timeline_centered}>
                     <ScrollAnimation
-                      offset="0"
+                      offset={0}
                       animateIn="fadeInLeft"
-                      duration="2.4"
-                      animateOnce="true"
+                      duration={2.4}
+                      animateOnce={true}
                       initiallyVisible={true}
                     >
                       <article className={classes.timeline_entry}>
@@ -38,21 +37,21 @@ class Education extends Component {
                         </div>
                         <div className={classes.label}>
                           <h2>
-                            Undergraduation at Queens College{" "}
-                            <span>2007-2011</span>
+                            Undergraduation at Queens College
+                            <span> 2007-2011</span>
                           </h2>
                           <p>
-                            I have completed my undergraduate in Speech from{" "}
-                            <a href=" ">Queens College</a>.{" "}
+                            I have completed my undergraduate in Speech from
+                            <a href=" "> Queens College</a>.
                           </p>
                         </div>
                       </article>
                     </ScrollAnimation>
                     <ScrollAnimation
-                      offset="0"
+                      offset={0}
                       animateIn="fadeInLeft"
-                      duration="2.4"
-                      animateOnce="true"
+                      duration={2.4}
+                      animateOnce={true}
                       initiallyVisible={true}
                     >
                       <article className={classes.timeline_entry}>
@@ -66,16 +65,16 @@ class Education extends Component {
                           <p>
                             I have completed my higher education from Long
                             Island University with major subjects as Speech
-                            Language.{" "}
+                            Language.
                           </p>
                         </div>
                       </article>
                     </ScrollAnimation>
                     <ScrollAnimation
-                      offset="0"
+                      offset={0}
                       animateIn="fadeInLeft"
-                      duration="2.4"
-                      animateOnce="true"
+                      duration={2.4}
+                      animateOnce={true}
                       initiallyVisible={true}
                     >
                       <article>
@@ -110,7 +109,4 @@ class Education extends Component {
         </ScrollAnimation>
       </div>
     );
-  }
-}
-
-export default Education;
+                          }
