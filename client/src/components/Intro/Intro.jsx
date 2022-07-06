@@ -18,6 +18,7 @@ export default function Intro() {
         "Nutrition Advisor",
         "eCommerce Specialist",
         "Fitness Director",
+        "Family Coordinator",
       ],
     });
   }, []);
