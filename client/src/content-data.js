@@ -9,6 +9,7 @@ const data = {
     "I Work Online",
   ],
 
+<<<<<<< HEAD
   //Who Am I
   About: {
     title: "ABOUT ME",
@@ -45,3 +46,14 @@ const data = {
 };
 
 export default data;
+=======
+  //about me
+  title: "ABOUT ME",
+  subTitle: "WHO AM I?",
+
+  //what I do
+  //my journey
+};
+
+export default data
+>>>>>>> 48ff1564978f3e43c4a3b39d29b4885537f0bc1d
