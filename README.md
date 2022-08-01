@@ -1,3 +1,7 @@
-# React-Portfolio made with love and with beautiful UI.
+# Dance Portfolio for Alina 
 
-For Alina Pink
+## Objective
+
+Create a deployed website that showcases Alina's skills as a dancer and teacher.
+
+
